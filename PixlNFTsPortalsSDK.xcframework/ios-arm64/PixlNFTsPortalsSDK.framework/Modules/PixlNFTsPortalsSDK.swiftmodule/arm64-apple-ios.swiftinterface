@@ -10,6 +10,27 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PixlNFTsPortalsViewController : UIKit.UIViewController, ARKit.ARSCNViewDelegate {
+  @_Concurrency.MainActor(unsafe) public var originalNFTs: [PixlNFTsPortalsSDK.NFTAsset]?
+  @_Concurrency.MainActor(unsafe) public var portalType: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var licenseKey: Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didReceiveMemoryWarning()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) public func dismissAction()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor(unsafe) @objc public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor(unsafe) @objc public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didRemove node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 public class NFTAsset : Swift.Codable, Swift.Hashable {
   public init(token_address: Swift.String? = nil, token_id: Swift.String? = nil, metadata: Swift.String? = nil, name: Swift.String? = nil, token_uri: Swift.String? = nil, blockchain: Swift.String? = nil)
   public static func == (lhs: PixlNFTsPortalsSDK.NFTAsset, rhs: PixlNFTsPortalsSDK.NFTAsset) -> Swift.Bool

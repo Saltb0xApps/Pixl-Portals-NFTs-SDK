@@ -230,9 +230,11 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ARKit;
 @import Foundation;
 @import ObjectiveC;
 @import SceneKit;
+@import UIKit;
 #endif
 
 #endif
@@ -277,7 +279,30 @@ SWIFT_CLASS("_TtC18PixlNFTsPortalsSDK17CQImageDownloader")
 - (void)URLSession:(NSURLSession * _Nonnull)session downloadTask:(NSURLSessionDownloadTask * _Nonnull)downloadTask didWriteData:(int64_t)bytesWritten totalBytesWritten:(int64_t)totalBytesWritten totalBytesExpectedToWrite:(int64_t)totalBytesExpectedToWrite;
 @end
 
+@protocol SCNSceneRenderer;
+@class SCNNode;
+@class ARAnchor;
+@class NSString;
+@class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC18PixlNFTsPortalsSDK29PixlNFTsPortalsViewController")
+@interface PixlNFTsPortalsViewController : UIViewController <ARSCNViewDelegate>
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (void)viewDidLayoutSubviews;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)dismissAction;
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+- (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didUpdateNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
+- (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didAddNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
+- (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didRemoveNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 /// A node containing a geometry that will create a portal of the specified properties and dimensions.
 SWIFT_CLASS("_TtC18PixlNFTsPortalsSDK10PortalMask")

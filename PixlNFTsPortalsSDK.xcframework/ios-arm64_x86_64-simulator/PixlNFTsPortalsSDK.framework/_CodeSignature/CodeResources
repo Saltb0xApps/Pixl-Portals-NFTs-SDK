@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PixlNFTsPortalsSDK-Swift.h</key>
 		<data>
-		t7YBO8nTy5fhypYCLjuK1NomMeM=
+		3TDOyfMVYpNzrQ6rsEA/UT9+ddw=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		sp3vJJ2J/Yow7FCM2lt8EeO9aNs=
+		7LGg4T92eTeF5u+dcjiRNrJn4DU=
 		</data>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OLXueCTaE7YWt/RBSF2k7dEzzgQ=
+		7vtEtgqPwFIJTOnNfilIImrD9QM=
 		</data>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OLXueCTaE7YWt/RBSF2k7dEzzgQ=
+		7vtEtgqPwFIJTOnNfilIImrD9QM=
 		</data>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YKkewQPmkRD0npEiDtkjUYyh82Q=
+		TQyFIFBZfu33+fKbdLXadU63V6Q=
 		</data>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		sp3vJJ2J/Yow7FCM2lt8EeO9aNs=
+		7LGg4T92eTeF5u+dcjiRNrJn4DU=
 		</data>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CX/9KBcyoBf6SgzmI0kzMAH6Zco=
+		HdqnmiZ0jGiKxHMGrCZcOItvA2w=
 		</data>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CX/9KBcyoBf6SgzmI0kzMAH6Zco=
+		HdqnmiZ0jGiKxHMGrCZcOItvA2w=
 		</data>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dQnyw8YJeg6idG74cVlvNOQCWFI=
+		btADVXmYrn/PXxgVSSKJxLbeaB0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,21 +79,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5fa9ps1B3pZDgW4irSRTfqJtrThViXJwLYpO/Nn1nhk=
+			J+6jJ1meaefAm8lr4nb6MswLejt6zzQfWYbn/cTI+Mw=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rjTBusdh6lX6encdkYVOmGEJxe7cxAwbaIiRO0lhbn0=
+			k7u8dKc+llkt+dowx9Ri/FwI8GKXeOP8SwGme4YFeA4=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ic2gU7wPM5+lr+dMipc3ER9PmkvwIA0vG7N3mlWrtnY=
+			OcRkJUDKBEG2uCiqy+ehyBIelIyAn3XF4KIMZnZZ0xo=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -107,28 +107,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ic2gU7wPM5+lr+dMipc3ER9PmkvwIA0vG7N3mlWrtnY=
+			OcRkJUDKBEG2uCiqy+ehyBIelIyAn3XF4KIMZnZZ0xo=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IBabt+a9AzgSi3nZOJ+BcxJUDHU4lGzIrHzcDVjs97M=
+			eZpYDALS/cAVRwCOsQiWrZgUQ3xV6knC+qiU9NPCVHs=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rjTBusdh6lX6encdkYVOmGEJxe7cxAwbaIiRO0lhbn0=
+			k7u8dKc+llkt+dowx9Ri/FwI8GKXeOP8SwGme4YFeA4=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mftrAX5TKJlyXXMuF8ChRNCanPjpwXwBnbo/sKzzoWk=
+			2dU3F5TGC+sHfr1H52iJXoih8K662BTjRWyCvvnEjOc=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -142,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mftrAX5TKJlyXXMuF8ChRNCanPjpwXwBnbo/sKzzoWk=
+			2dU3F5TGC+sHfr1H52iJXoih8K662BTjRWyCvvnEjOc=
 			</data>
 		</dict>
 		<key>Modules/PixlNFTsPortalsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W5Yqybz5t+USvpnMZV/xUvIP/c21ZfkddriCiUSToho=
+			eYiUW3kpjODc7dSzXkqmyA6e2Q0jIMTgDDjE8mcNeYs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
