@@ -1,0 +1,1606 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPortalsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPortalsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPortalsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPortalsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPortalsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NFTAsset",
+        "printedName": "NFTAsset",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token_address:token_id:metadata:name:token_uri:blockchain:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NFTAsset",
+                "printedName": "PixlNFTsPortalsSDK.NFTAsset",
+                "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC13token_address0F3_id8metadata4name0F4_uri10blockchainACSSSg_A5Jtcfc",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC13token_address0F3_id8metadata4name0F4_uri10blockchainACSSSg_A5Jtcfc",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFTAsset",
+                "printedName": "PixlNFTsPortalsSDK.NFTAsset",
+                "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFTAsset",
+                "printedName": "PixlNFTsPortalsSDK.NFTAsset",
+                "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC2eeoiySbAC_ACtFZ",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC4hash4intoys6HasherVz_tF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getImageURL",
+            "printedName": "getImageURL()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC11getImageURLSSyF",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC11getImageURLSSyF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAnimationURL",
+            "printedName": "getAnimationURL()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC15getAnimationURLSSyF",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC15getAnimationURLSSyF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchUpdateMetadata",
+            "printedName": "fetchUpdateMetadata(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC19fetchUpdateMetadata10completionyySb_SStc_tF",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC19fetchUpdateMetadata10completionyySb_SStc_tF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIPFSFormatted",
+            "printedName": "getIPFSFormatted(ipfsURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC16getIPFSFormatted7ipfsURLS2S_tF",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC16getIPFSFormatted7ipfsURLS2S_tF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getName",
+            "printedName": "getName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC7getNameSSyF",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC7getNameSSyF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDescription",
+            "printedName": "getDescription()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC14getDescriptionSSyF",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC14getDescriptionSSyF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getExternalURL",
+            "printedName": "getExternalURL()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC14getExternalURLSSyF",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC14getExternalURLSSyF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAttributes",
+            "printedName": "getAttributes()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.String : Any]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC13getAttributesSaySDySSypGGyF",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC13getAttributesSaySDySSypGGyF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NFTAsset",
+                "printedName": "PixlNFTsPortalsSDK.NFTAsset",
+                "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC6encode2toys7Encoder_p_tKF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC9hashValueSivp",
+            "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC9hashValueSivp",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC9hashValueSivg",
+                "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC9hashValueSivg",
+                "moduleName": "PixlNFTsPortalsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18PixlNFTsPortalsSDK8NFTAssetC",
+        "mangledName": "$s18PixlNFTsPortalsSDK8NFTAssetC",
+        "moduleName": "PixlNFTsPortalsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit.SCNNode",
+        "printedName": "SceneKit.SCNNode",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPortalsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PortalMask",
+        "printedName": "PortalMask",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frameSize:depth:outerMult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PortalMask",
+                "printedName": "PixlNFTsPortalsSDK.PortalMask",
+                "usr": "c:@M@PixlNFTsPortalsSDK@objc(cs)PortalMask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PixlNFTsPortalsSDK10PortalMaskC9frameSize5depth9outerMultACSo6CGSizeV_14CoreFoundation7CGFloatVSgAKtcfc",
+            "mangledName": "$s18PixlNFTsPortalsSDK10PortalMaskC9frameSize5depth9outerMultACSo6CGSizeV_12CoreGraphics7CGFloatVSgAKtcfc",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PixlNFTsPortalsSDK.PortalMask?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PortalMask",
+                    "printedName": "PixlNFTsPortalsSDK.PortalMask",
+                    "usr": "c:@M@PixlNFTsPortalsSDK@objc(cs)PortalMask"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PixlNFTsPortalsSDK@objc(cs)PortalMask(im)initWithCoder:",
+            "mangledName": "$s18PixlNFTsPortalsSDK10PortalMaskC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "tube",
+            "printedName": "tube(radius:subdivisions:depth:outerMult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PortalMask",
+                "printedName": "PixlNFTsPortalsSDK.PortalMask",
+                "usr": "c:@M@PixlNFTsPortalsSDK@objc(cs)PortalMask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK10PortalMaskC4tube6radius12subdivisions5depth9outerMultAC14CoreFoundation7CGFloatV_SiAKSgAKtFZ",
+            "mangledName": "$s18PixlNFTsPortalsSDK10PortalMaskC4tube6radius12subdivisions5depth9outerMultAC12CoreGraphics7CGFloatV_SiAKSgAKtFZ",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(radius:flatness:depth:outerMult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PortalMask",
+                "printedName": "PixlNFTsPortalsSDK.PortalMask",
+                "usr": "c:@M@PixlNFTsPortalsSDK@objc(cs)PortalMask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PixlNFTsPortalsSDK10PortalMaskC6radius8flatness5depth9outerMultAC14CoreFoundation7CGFloatV_A2JSgAJtcfc",
+            "mangledName": "$s18PixlNFTsPortalsSDK10PortalMaskC6radius8flatness5depth9outerMultAC12CoreGraphics7CGFloatV_A2JSgAJtcfc",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(path:flatness:depth:outerMult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PortalMask",
+                "printedName": "PixlNFTsPortalsSDK.PortalMask",
+                "usr": "c:@M@PixlNFTsPortalsSDK@objc(cs)PortalMask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreFoundation.CGPoint]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PixlNFTsPortalsSDK10PortalMaskC4path8flatness5depth9outerMultACSaySo7CGPointVG_14CoreFoundation7CGFloatVAMSgAMtcfc",
+            "mangledName": "$s18PixlNFTsPortalsSDK10PortalMaskC4path8flatness5depth9outerMultACSaySo7CGPointVG_12CoreGraphics7CGFloatVAMSgAMtcfc",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "updateGeometry",
+            "printedName": "updateGeometry(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreFoundation.CGPoint]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK10PortalMaskC14updateGeometry4withySaySo7CGPointVG_tF",
+            "mangledName": "$s18PixlNFTsPortalsSDK10PortalMaskC14updateGeometry4withySaySo7CGPointVG_tF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PixlNFTsPortalsSDK@objc(cs)PortalMask",
+        "mangledName": "$s18PixlNFTsPortalsSDK10PortalMaskC",
+        "moduleName": "PixlNFTsPortalsSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SCNNode",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "SceneKit.SCNNode",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPortalsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CQImageDownloader",
+        "printedName": "CQImageDownloader",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "downloadImageWithProgress",
+            "printedName": "downloadImageWithProgress(_:progress:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Float) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Float) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIImage?, Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage?, Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage?, Swift.Bool)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK17CQImageDownloaderC25downloadImageWithProgress_8progress10completionySS_ySfcSgySo7UIImageCSg_SbtcSgtF",
+            "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderC25downloadImageWithProgress_8progress10completionySS_ySfcSgySo7UIImageCSg_SbtcSgtF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteCacheImage",
+            "printedName": "deleteCacheImage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK17CQImageDownloaderC16deleteCacheImageyySSF",
+            "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderC16deleteCacheImageyySSF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearAllTheCachedImages",
+            "printedName": "clearAllTheCachedImages()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK17CQImageDownloaderC23clearAllTheCachedImagesyyFZ",
+            "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderC23clearAllTheCachedImagesyyFZ",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancelDownload",
+            "printedName": "cancelDownload()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK17CQImageDownloaderC14cancelDownloadyyF",
+            "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderC14cancelDownloadyyF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseDownload",
+            "printedName": "pauseDownload()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK17CQImageDownloaderC13pauseDownloadyyF",
+            "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderC13pauseDownloadyyF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resumeDownload",
+            "printedName": "resumeDownload()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PixlNFTsPortalsSDK17CQImageDownloaderC14resumeDownloadyyF",
+            "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderC14resumeDownloadyyF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CQImageDownloader",
+                "printedName": "PixlNFTsPortalsSDK.CQImageDownloader",
+                "usr": "c:@M@PixlNFTsPortalsSDK@objc(cs)CQImageDownloader"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PixlNFTsPortalsSDK@objc(cs)CQImageDownloader(im)init",
+            "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderCACycfc",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "urlSession",
+            "printedName": "urlSession(_:didReceive:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLAuthenticationChallenge",
+                "printedName": "Foundation.URLAuthenticationChallenge",
+                "usr": "c:objc(cs)NSURLAuthenticationChallenge"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthChallengeDisposition",
+                        "printedName": "Foundation.URLSession.AuthChallengeDisposition",
+                        "usr": "c:@E@NSURLSessionAuthChallengeDisposition"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLCredential?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLCredential",
+                            "printedName": "Foundation.URLCredential",
+                            "usr": "c:objc(cs)NSURLCredential"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PixlNFTsPortalsSDK@objc(cs)CQImageDownloader(im)URLSession:didReceiveChallenge:completionHandler:",
+            "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderC10urlSession_10didReceive17completionHandlerySo12NSURLSessionC_So28NSURLAuthenticationChallengeCySo0m4AuthO11DispositionV_So15NSURLCredentialCSgtctF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "objc_name": "URLSession:didReceiveChallenge:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "urlSession",
+            "printedName": "urlSession(_:task:didCompleteWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionTask",
+                "printedName": "Foundation.URLSessionTask",
+                "usr": "c:objc(cs)NSURLSessionTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PixlNFTsPortalsSDK@objc(cs)CQImageDownloader(im)URLSession:task:didCompleteWithError:",
+            "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderC10urlSession_4task20didCompleteWithErrorySo12NSURLSessionC_So0N4TaskCs0M0_pSgtF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "objc_name": "URLSession:task:didCompleteWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "urlSession",
+            "printedName": "urlSession(_:downloadTask:didFinishDownloadingTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDownloadTask",
+                "printedName": "Foundation.URLSessionDownloadTask",
+                "usr": "c:objc(cs)NSURLSessionDownloadTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PixlNFTsPortalsSDK@objc(cs)CQImageDownloader(im)URLSession:downloadTask:didFinishDownloadingToURL:",
+            "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderC10urlSession_12downloadTask22didFinishDownloadingToySo12NSURLSessionC_So0o8DownloadJ0C10Foundation3URLVtF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "objc_name": "URLSession:downloadTask:didFinishDownloadingToURL:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "urlSession",
+            "printedName": "urlSession(_:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDownloadTask",
+                "printedName": "Foundation.URLSessionDownloadTask",
+                "usr": "c:objc(cs)NSURLSessionDownloadTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PixlNFTsPortalsSDK@objc(cs)CQImageDownloader(im)URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:",
+            "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderC10urlSession_12downloadTask12didWriteData17totalBytesWritten0no10ExpectedToL0ySo12NSURLSessionC_So0s8DownloadJ0Cs5Int64VA2NtF",
+            "moduleName": "PixlNFTsPortalsSDK",
+            "objc_name": "URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PixlNFTsPortalsSDK@objc(cs)CQImageDownloader",
+        "mangledName": "$s18PixlNFTsPortalsSDK17CQImageDownloaderC",
+        "moduleName": "PixlNFTsPortalsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PixlNFTsPortalsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPortalsSDK\/PixlNFTsPortalsSDK\/ExternalLibraries\/PortalMask\/PortalMask.swift",
+      "kind": "FloatLiteral",
+      "offset": 322,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPortalsSDK\/PixlNFTsPortalsSDK\/ExternalLibraries\/PortalMask\/PortalMask.swift",
+      "kind": "FloatLiteral",
+      "offset": 352,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPortalsSDK\/PixlNFTsPortalsSDK\/ExternalLibraries\/PortalMask\/PortalMask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 954,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPortalsSDK\/PixlNFTsPortalsSDK\/ExternalLibraries\/PortalMask\/PortalMask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2752,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPortalsSDK\/PixlNFTsPortalsSDK\/ExternalLibraries\/PortalMask\/PortalMask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2801,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPortalsSDK\/PixlNFTsPortalsSDK\/ExternalLibraries\/PortalMask\/PortalMask.swift",
+      "kind": "FloatLiteral",
+      "offset": 4208,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPortalsSDK\/PixlNFTsPortalsSDK\/ExternalLibraries\/PortalMask\/PortalMask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4258,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPortalsSDK\/PixlNFTsPortalsSDK\/ExternalLibraries\/PortalMask\/PortalMask.swift",
+      "kind": "FloatLiteral",
+      "offset": 5705,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPortalsSDK\/PixlNFTsPortalsSDK\/ExternalLibraries\/PortalMask\/PortalMask.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5754,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akhiltolani\/Desktop\/apps\/Startups\/NFTs\/PixlNFTsPortalsSDK\/PixlNFTsPortalsSDK\/Models\/ImageDownloader.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
